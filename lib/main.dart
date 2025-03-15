@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:profile_app/config/config.dart';
 import 'package:profile_app/features/profile/presentation/screens/screens.dart';
 
 void main() {
@@ -12,7 +13,9 @@ class MyProfileApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: AppTheme().getTheme(),
       home: ProfileScreen(),
     );
   }
 }
+

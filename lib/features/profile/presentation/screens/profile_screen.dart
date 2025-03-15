@@ -14,7 +14,6 @@ class ProfileScreen extends StatelessWidget {
       drawer: SideMenu(scaffoldKey: scaffoldKey),
       appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.white),
-        backgroundColor: Colors.transparent,
         elevation: 0,
         actions: [
           IconButton(
